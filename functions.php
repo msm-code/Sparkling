@@ -70,7 +70,7 @@ function sparkling_setup() {
 
   // Setup the WordPress core custom background feature.
   add_theme_support( 'custom-background', apply_filters( 'sparkling_custom_background_args', array(
-    'default-color' => 'F2F2F2',
+    'default-color' => '101010',
     'default-image' => '',
   ) ) );
 
