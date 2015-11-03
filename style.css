@@ -1208,8 +1208,8 @@ p.logged-in-as {
 }
 .copyright {
   margin-top: 10px;
-  float: right;
-  text-align: right;
+  float: left;
+  text-align: left;
 }
 #colophon {
   background-color: #1F1F1F;
