@@ -26,7 +26,7 @@ if ( ! function_exists( 'sparkling_main_content_bootstrap_classes' ) ) :
  * Add Bootstrap classes to the main-content-area wrapper.
  */
 function sparkling_main_content_bootstrap_classes() {
-	return 'col-sm-12 col-md-12';
+	return 'col-sm-8 col-md-8';
 }
 endif; // sparkling_main_content_bootstrap_classes
 
