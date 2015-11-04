@@ -328,6 +328,17 @@ function sparkling_customizer( $wp_customize ) {
             'priority' => 31,
             'panel' => 'sparkling_main_options'
         ));
+            $wp_customize->add_setting('sparkling[nav_header_logo]', array(
+                'default' => '',
+                'type' => 'option',
+                'sanitize_callback' => 'sparkling_sanitize_strip_slashes'
+            ));
+            $wp_customize->add_control('sparkling[nav_header_logo]', array(
+                'label' => __('Html to be used as site logo', 'sparkling'),
+                'description' => __('Enter html that will be used as site logo', 'sparkling'),
+                'section' => 'sparkling_header_options',
+                'type' => 'textarea'
+            ));
             $wp_customize->add_setting('sparkling[nav_bg_color]', array(
                 'default' => '',
                 'type'  => 'option',
