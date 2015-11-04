@@ -50,7 +50,7 @@ body {
 }
 
 a {
-  color: #DA4453;
+  color: #ffffff;
   text-decoration: none;
   -webkit-transition: all 0.3s;
      -moz-transition: all 0.3s;
@@ -71,19 +71,21 @@ a:focus {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  color: #DA4453;
-  font-weight: 700;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Open Sans', serif;
 }
 
 h1,
 .h1 {
-  font-size: 28px;
+  color: #ffffff;
+  font-size: 38px;
+  text-align: center;
 }
 
 h2,
 .h2 {
-  font-size: 24px;
+  color: #b0b0b0;
+  font-size: 22px;
+  text-align: center;
 }
 
 h3,
@@ -293,7 +295,6 @@ textarea {
   margin: 0 0 1.5em;
 }
 .main-content-area {
-  margin-top: 40px;
   margin-bottom: 40px;
 }
 /* =Post styling
@@ -328,7 +329,7 @@ footer.entry-meta {
   color: #444;
 }
 .entry-title a:hover {
-  color: #DA4453;
+  color: #ffffff;
 }
 .btn.btn-default.read-more {
   float: right;
@@ -372,6 +373,9 @@ hr.section-divider {
 .post-inner-content {
   padding: 45px 50px;
   background-color: #101010;
+}
+.post-inner-content:first-child {
+  border-top: 1px solid #404040;
 }
 .entry-title {
   margin-top: 0;
