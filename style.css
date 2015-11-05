@@ -1473,3 +1473,21 @@ button[type=submit],
 .no-js table#wp-calendar {
   display: block;
 }
+
+/* Tables */
+.table,
+.table-hover > tbody > tr:hover {
+    background-color: #101010;
+}
+
+.table > tbody > tr > td {
+    border: 1px solid #404040;
+}
+
+/* Lists */
+.cssClass li {
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: -1em;
+    padding-left: 1em;
+}
