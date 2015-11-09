@@ -1205,6 +1205,7 @@ p.logged-in-as {
   margin-top: 10px;
   float: left;
   text-align: left;
+  width: 100%;
 }
 #colophon {
   background-color: #000000;
