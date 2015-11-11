@@ -323,7 +323,6 @@ footer.entry-meta {
   margin-right: 10px;
 }
 .entry-title {
-  color: #444;
   margin-bottom: 30px;
 }
 .entry-title a {
@@ -1140,15 +1139,6 @@ p.logged-in-as {
   padding: 6px 8px;
   margin: 0 0 10px 0;
   text-align: center;
-  width: 100%;
-}
-.gallery-caption:before {
-  content: "";
-  height: 100%;
-  min-height: 49px;
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
 }
 .gallery-item:hover .gallery-caption {
