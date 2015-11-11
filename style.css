@@ -894,8 +894,8 @@ button:hover {
   padding: 0;
 }
 .navbar-nav > li > a {
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 0px;
+  padding-bottom: 36px;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
